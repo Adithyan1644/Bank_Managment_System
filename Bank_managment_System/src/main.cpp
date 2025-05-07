@@ -51,6 +51,8 @@ int main()
 {
 	int choice;
 	Bank customer;
+	cout << "BANK_MANAGMENT_SYSTEM\n"
+	<< "_____________________\n";
 	cout << "open account\n"
 		<< "_____________________\n";
 	customer.open_account();
