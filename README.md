@@ -16,4 +16,33 @@ C++ compiler (e.g., g++)
 Terminal or command-line interface
 
 
-![Screenshot 2025-05-07 154037](https://github.com/user-attachments/assets/64b7869c-9d6f-47f2-835e-4939b416fb4f)
+Workflow
+Open Account
+Enter your name, address, account type (S for Savings, C for Current), and initial deposit amount.
+
+Deposit Money
+Input the amount to deposit. The updated balance will be displayed.
+
+Withdraw Money
+Input the amount to withdraw. The updated balance will be displayed (note: no overdraft protection).
+
+Display Account
+View your account details, including name, account type, and current balance.
+
+![image](https://github.com/user-attachments/assets/815fc7f5-d74e-4a70-89a8-227e51262f84)
+
+Limitations & Future Enhancements
+Input Handling:
+Currently, names/addresses with spaces are truncated. Use getline() for full input.
+
+Balance Checks:
+No validation for negative withdrawals. Add checks to prevent overdrafts.
+
+Data Persistence:
+Accounts are not saved to a file. Implement file storage (e.g., using fstream).
+
+Interactive Menu:
+Add a menu-driven interface for flexible operations (e.g., choose actions via input).
+
+Multiple Accounts:
+Support multiple accounts using arrays or data structures.
